@@ -2,7 +2,7 @@
 
 Mission One for Level 5 Advanced Software Developer
 
-<h3 align="center">ABOUT THE PROJECT:</h3>
+<h3>ABOUT THE PROJECT:</h3>
 
 -->I struggled a lot with this Mission despite watching and reading all required and relevant recommended resources. I especially struggled with comprehending testing and the TDD environment and implementation.
 
