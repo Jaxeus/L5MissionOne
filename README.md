@@ -12,7 +12,7 @@ Mission One for Level 5 Advanced Software Developer
 
 __________________________________
 
-BUILT WITH:
+<h3>BUILT WITH:</h3>
 1. JavaScript (Vanilla)
 
 *I was considering using TypeScript, but after our TDD session, it seemed like you can show a larger array of errors in your testing with JS
@@ -23,14 +23,14 @@ BUILT WITH:
 
 3. (the help of) Postman
 
-DEPENDENCIES:
+<h3>DEPENDENCIES:</h3>
 
 1. Express JS
 2. Mocha (npm test)
 3. Chai
 4. Nodemon (npm run dev)
 
-GETTING STARTED:
+<h3>GETTING STARTED:</h3>
 
 1. Create Folder in VS Code (e.g. L5MissionOne)
 2. Open Integrated Terminal from that folder
@@ -40,7 +40,7 @@ GETTING STARTED:
 
 ______________________________________
 
-MISSION TASKS:
+<h3>MISSION TASKS:</h3>
 
 Mission tasks 1, 2, and 3 are in the Word Document attached to submission. Also attached to the end of this README file are images of tasks 1, 2, and 3 in order. 
 
@@ -73,14 +73,17 @@ Jason 😊
 
 ________________________________________
 
-Task 1. Identify Stakeholders
+<h4>Task 1. Identify Stakeholders</h4>
+<br />
 <br />
 <img width="500" alt="Identifying Stakeholders Matrix image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/ec8970c8-e796-45dc-bd4b-55a5923e1563">
-
-Task 2. Understand Context of a Project
+___________________________
+<h4>Task 2. Understand Context of a Project</h4>
+<br />
 <br />
 <img width="500" alt="Project-Start Considerations image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/cb7e3f4e-4450-4c78-9a8d-0ed0354e2a32">
-
-Task 3. Familiarise with tool for Task Management
+___________________________
+<h4>Task 3. Familiarise with tool for Task Management</h4>
+<br />
 <br />
 <img width="500" alt="Jira Kanban Board image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/1e842ed7-6e11-4709-82f2-609f77d0905e">
