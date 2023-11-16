@@ -10,6 +10,8 @@ ABOUT THE PROJECT:
 
 -->This is the first Mission where I haven't completed all of the tasks provided, but I will be meeting the Trainer (Andrew) one-one within the next few days for help to complete all tasks (remaining tasks are completing functional and passing tests, and editing the API to look more professional)
 
+__________________________________
+
 BUILT WITH:
 1. JavaScript (Vanilla)
 
@@ -35,6 +37,8 @@ GETTING STARTED:
 3. In terminal: git clone https://github.com/Jaxeus/L5MissionOne.git
 4. In terminal: npm install (to install node_modules)
 5. In terminal: npm run dev (to run nodemon server.js) OR node server.js
+
+______________________________________
 
 MISSION TASKS:
 
