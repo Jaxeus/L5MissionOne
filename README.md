@@ -2,7 +2,7 @@
 
 Mission One for Level 5 Advanced Software Developer
 
-<h1 style="color:red;">ABOUT THE PROJECT:</h1>
+<h4>ABOUT THE PROJECT:</h4>
 
 -->I struggled a lot with this Mission despite watching and reading all required and relevant recommended resources. I especially struggled with comprehending testing and the TDD environment and implementation.
 
