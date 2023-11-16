@@ -42,7 +42,7 @@ ______________________________________
 
 <h3>MISSION TASKS:</h3>
 
-Mission tasks 1, 2, and 3 are in the Word Document attached to submission. <strong>Also attached to the end of this README file are images of tasks 1, 2, and 3 in order.</strong> 
+Mission tasks 1, 2, and 3 are in the Word Document attached to submission. <strong style="color:red;">Also attached to the end of this README file are images of tasks 1, 2, and 3 in order.</strong> 
 
 Task 4 is learning about TDD (video - watched)
 
