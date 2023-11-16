@@ -4,4 +4,8 @@ Mission One for Level 5 Advanced Software Developer
 
 ABOUT THE PROJECT:
 
-<img src="/Me picture.jpg" />
+<html>
+<body>
+<img alt="Me" src="/Me picture.jpg" />
+</body>
+</html>
