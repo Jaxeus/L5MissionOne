@@ -4,7 +4,7 @@ Mission One for Level 5 Advanced Software Developer
 
 ABOUT THE PROJECT:
 
--->I struggled a lot with this Mission, especially comprehending testing and the TDD environment.
+-->I struggled a lot with this Mission despite watching and reading all required and relevant recommended resources. I especially struggled with comprehending testing and the TDD environment and implementation.
 
 -->But, as per all Missions at Mission Ready HQ, I learned a lot as well.
 
@@ -35,6 +35,26 @@ GETTING STARTED:
 3. In terminal: git clone https://github.com/Jaxeus/L5MissionOne.git
 4. In terminal: npm install (to install node_modules)
 5. In terminal: npm run dev (to run nodemon server.js) OR node server.js
+
+MISSION TASKS:
+
+Mission tasks 1, 2, and 3 are in the Word Document attached to submission.
+
+Task 4 is learning about TDD (video - watched)
+
+From task 5, I chose to work with the 1st API:
+
+API 1. Convert "Model" and "Year" of a car to a suggested "Car Value"
+
+This API takes 2 parameters as input in JSON format that includes - the "model" (e.g. "Civic") and a numeric "year" of a car (e.g. 2014).  And the output is a JSON format with the suggested value for the car, such as "$6,614".  Here are the example specifications and business rules of conversion:
+
+INPUT	OUTPUT	ERROR OUTPUT
+{ model: "Civic"; year: 2014 }	{ car_value: 6614 }	{ error: "there is an error"}
+ 
+
+BUSINESS RULES
+
+Car_value is calculated by adding up the positions of alphabets of the letters in the name, times a hundred, and add the year value.  Position of alphabet means the letter in the order of alphabets (e.g. A is the first letter, so it is 1.  Z is the last letter, so it is 26).  Space and any other signs are ignored.   For example, a "Civic" in year 2014 will be worth (3 + 9 + 22 + 9 + 3) * 100 + 2014 = $6,614.  If input values are not valid, return an error.
 
 
 
