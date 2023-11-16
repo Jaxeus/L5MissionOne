@@ -13,7 +13,8 @@ Mission One for Level 5 Advanced Software Developer</div>
 __________________________________
 
 <h3>BUILT WITH:</h3>
-1. JavaScript (Vanilla)
+
+  1. JavaScript (Vanilla)
 <br />-->I was considering using TypeScript, but after our TDD session, it seemed like you can show a larger array of errors in your testing with JS
 <br />-->I was tossing up, but considering that I struggled a lot with this mission, it was probably just as well
 
