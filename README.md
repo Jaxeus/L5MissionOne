@@ -77,12 +77,16 @@ ________________________________________
 <br />
 <br />
 <img width="500" alt="Identifying Stakeholders Matrix image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/ec8970c8-e796-45dc-bd4b-55a5923e1563">
+
 ___________________________
+
 <h4>Task 2. Understand Context of a Project</h4>
 <br />
 <br />
 <img width="500" alt="Project-Start Considerations image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/cb7e3f4e-4450-4c78-9a8d-0ed0354e2a32">
+
 ___________________________
+
 <h4>Task 3. Familiarise with tool for Task Management</h4>
 <br />
 <br />
