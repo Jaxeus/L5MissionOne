@@ -42,7 +42,7 @@ ______________________________________
 
 MISSION TASKS:
 
-Mission tasks 1, 2, and 3 are in the Word Document attached to submission.
+Mission tasks 1, 2, and 3 are in the Word Document attached to submission. Also attached to the end of this README file are images of tasks 1, 2, and 3 in order. 
 
 Task 4 is learning about TDD (video - watched)
 
@@ -70,3 +70,14 @@ The practise folder can be ignored. I just used a practise.js file to try out a 
 
 Thank you for reading,
 Jason :-)
+
+________________________________________
+
+Task 1. Identify Stakeholders
+<img width="477" alt="Identifying Stakeholders Matrix image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/ec8970c8-e796-45dc-bd4b-55a5923e1563">
+
+Task 2. Understand Context of a Project
+<img width="480" alt="Project-Start Considerations image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/cb7e3f4e-4450-4c78-9a8d-0ed0354e2a32">
+
+Task 3. Familiarise with tool for Task Management
+<img width="493" alt="Jira Kanban Board image" src="https://github.com/Jaxeus/L5MissionOne/assets/140988744/1e842ed7-6e11-4709-82f2-609f77d0905e">
