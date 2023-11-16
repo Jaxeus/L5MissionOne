@@ -12,9 +12,13 @@ ABOUT THE PROJECT:
 
 BUILT WITH:
 1. JavaScript (Vanilla)
+
 *I was considering using TypeScript, but after our TDD session, it seemed like you can show a larger array of errors in your testing with JS
+
 *I was tossing up, but considering that I struggled a lot with this mission, it was probably just as well
+
 2. Node JS
+
 3. (the help of) Postman
 
 DEPENDENCIES:
