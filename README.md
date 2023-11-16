@@ -69,7 +69,7 @@ api.test.js contains the tests, incomplete (but will endeavour to complete them 
 The practise folder can be ignored. I just used a practise.js file to try out a few ideas while trying to figure out how to create a function to turn the car model into a value, given the specifics of the business rules above. As well as including the year of the car, which influences the value of the car for the purposes of Turners Car Insurance.
 
 Thank you for reading,
-Jason 😊
+<br />Jason 😊
 
 ________________________________________
 
