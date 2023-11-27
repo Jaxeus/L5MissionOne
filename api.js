@@ -1,16 +1,12 @@
-"use strict";
-
+// const axios = require("axios");
 const express = require("express");
-const app = express();
+const api = express();
 const cors = require("cors");
-const findCarValue = require("./api"); // Importing the findCarValue function from api.js for testing
 
-//----------MIDDLEWARE----------//
-app.use(express.json()); //allows us to see data in json format in the body of the request
-app.use(cors());
+api.use(express.json()); //allows us to see data in json format in the body of the request
+api.use(cors());
 
-//BELOW MOVED TO API.JS
-/* //----------Static Variables for example: Honda Civic, 2014----------//
+//----------Static Variables for example: Honda Civic, 2014----------//
 const hondaCar = {
   model: "Civic",
   year: 2014,
@@ -63,38 +59,12 @@ console.log(
     hondaCar.year
   )}`
 );
- */
-//-----------EXPORTS----------//
-// module.exports = findCarValue;
+
+module.exports = findCarValue; // exporting the function to be used in post request in server.js
 
 //----------ENDPOINTS----------//
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
-//Practise
-app.post("/bop", (req, res) => {
-  console.log(req.body);
-  res.send("bop is hit");
-});
-
-//----------findCarValue function in API.js being utilised
-app.post("/carValue", (req, res) => {
-  const model = req.body.model;
-  const year = req.body.year;
-  const carValue = findCarValue(model, year);
-  // const carValue = findCarValue(model, year);
-  console.log("Console for req.body", req.body);
-  console.log(`Console logging the car's value: $${carValue}`);
-  res.send({ carValue }); //{"carValue": 8708} where body = {"model": "Atenza", "year": 2008}
-});
-// ** To activate this endpoint, use Postman and send a POST request to http://localhost:4001/carValue with the body as raw and JSON format. The body should be {"model": "Atenza", "year": 2008} to get the same result as above comment. **
-// !! When using Postman, remember to change the body to raw and JSON format, rather than text. Hours spent on Text wondering why it wasn't working. Also remember to give the keys quotation marks. !!
-
-//----------PORT----------//
-const PORT = 4001;
-
-//----------LISTEN----------//
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT} 🐣`);
-});
+// api.post("/carValue", (req, res) => {
+//   const { model, year } = req.body;
+//   const carValue = findCarValue(model, year);
+//   res.send(carValue);
+// });
