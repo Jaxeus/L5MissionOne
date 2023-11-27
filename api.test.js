@@ -54,7 +54,7 @@ describe("findCarValue API", () => {
   });
 
   //--4th Test (Invalid model: empty model not allowed)--//
-  it("Third test of POST /findCarValue", () => {
+  it("Fourth test of POST /findCarValue", () => {
     // Arrange
     const model = " ";
     const year = 2014;
@@ -68,7 +68,7 @@ describe("findCarValue API", () => {
   });
 
   //--5th Test (Invalid yea: outside of scope)--//
-  it("Fourth test of POST /findCarValue", () => {
+  it("Fifth test of POST /findCarValue", () => {
     // Arrange
     const model = "Atenza";
     const year = 1885;
@@ -82,7 +82,7 @@ describe("findCarValue API", () => {
   });
 
   //--6th Test (Invalid year: outside of scope)--//
-  it("Fifth test of POST /findCarValue", () => {
+  it("Sixth test of POST /findCarValue", () => {
     // Arrange
     const model = "Camry";
     const year = 2026;
@@ -96,7 +96,7 @@ describe("findCarValue API", () => {
   });
 
   //--7th Test (Invalid year: negative number not allowed)--//
-  it("Sixth test of POST /findCarValue", () => {
+  it("Seventh test of POST /findCarValue", () => {
     // Arrange
     const model = "Skyline";
     const year = -2012;
@@ -110,7 +110,7 @@ describe("findCarValue API", () => {
   });
 
   //--8th Test (Invalid model: no special chars allowed)--//
-  it("Seventh test of POST /findCarValue", () => {
+  it("Eighth test of POST /findCarValue", () => {
     // Arrange
     const model = "Axel@";
     const year = 2005;
@@ -123,8 +123,8 @@ describe("findCarValue API", () => {
     expect(actual).toEqual(expected);
   });
 
-  //---------9th Test (Testing the API?)----------//
-  // it("Eighth test of POST /findCarValue", () => {
+  // ---------9th Test (Testing the API?)----------//
+  // it("Ninth test of POST /findCarValue", () => {
   //   // Arrange
   //   const model = request.post("/findCarValue").send(req.body.model);
   //   const year = request.post("/findCarValue").send(req.body.year);
@@ -134,6 +134,6 @@ describe("findCarValue API", () => {
   //   const actual = findCarValue(model, year);
 
   //   // Assert
-  //   expect(actual).toBe(expected);
+  //   expect(actual).toEqual(expected);
   // });
 });
