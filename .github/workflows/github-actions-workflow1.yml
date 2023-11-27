@@ -1,6 +1,11 @@
-name: Github Actions Workflow1
-run-name: Jason is creating a new workflow from scratch 🚀
-on: [push]
+name: Jason's first CI/CD Workflow
+run-name: ${{github.actor}} is creating a CI/CD workflow 🚀
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     name: Build
@@ -9,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Hello, world! 👋
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
