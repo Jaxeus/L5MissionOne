@@ -22,6 +22,8 @@ Mission One for Level 5 Advanced Software Developer</div>
 
 3. (the help of) Postman
 
+4. HOSTED ON: Azure (For Mission 3)
+
 <h3>DEPENDENCIES:</h3>
 
 1. Express JS
