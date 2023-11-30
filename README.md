@@ -41,3 +41,14 @@ Mission One (and Three) for Level 5 Advanced Software Developer</div>
 3. In terminal: git clone https://github.com/Jaxeus/L5MissionOne.git
 4. In terminal: npm install (to install node_modules)
 5. In terminal: npm run dev (to run nodemon server.js) OR node server.js
+
+_______________
+
+What I did in Mission Three:
+
+1. My mission one was not complete, so for starters I figured out how to get my API working locally, and managed to get the tests all working.
+2. Next, I deployed my Mission One repo onto Azure as a web app
+3. I created an index.html file and a style.css file to create a reasonable UI
+4. I tested my API, but I have been unable to get it working using Postman. However, it works perfectly fine using a post request on Postman if I use the same API locally.
+5. The only step I need to take to finish Mission 3 is to get it working, but I've spent a lot of time on it and have tried countless different options but it hasn't worked.
+6. To be completed at this stage
