@@ -91,6 +91,20 @@ app.post("/carValue", (req, res) => {
 // ** To activate this endpoint, use Postman and send a POST request to http://localhost:4001/carValue with the body as raw and JSON format. The body should be {"model": "Atenza", "year": 2008} to get the same result as above comment. **
 // !! When using Postman, remember to change the body to raw and JSON format, rather than text. Hours spent on Text wondering why it wasn't working. Also remember to give the keys quotation marks. !!
 
+//----------Deployed @ http://mission-one-three.azurewebsites.net/ - findCarValue function in API.js being utilised
+app.post(
+  "http://mission-one-three.azurewebsites.net/carValueQuote",
+  (req, res) => {
+    const model = req.body.model;
+    const year = req.body.year;
+    const carValue = findCarValue(model, year);
+    // const carValue = findCarValue(model, year);
+    console.log("Console for req.body", req.body);
+    console.log(`Console logging the car's value: $${carValue}`);
+    res.send({ carValue }); //{"carValue": 8708} where body = {"model": "Atenza", "year": 2008}
+  }
+);
+
 //----------PORT----------//
 const PORT = 4001;
 
