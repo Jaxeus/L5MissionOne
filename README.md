@@ -1,6 +1,9 @@
-<div align="center"><h1># L5MissionOne</h1>
+<div align="center"><h1># L5MissionOne (And Mission Three)</h1>
 <br />
-Mission One for Level 5 Advanced Software Developer</div>
+Mission One (and Three) for Level 5 Advanced Software Developer</div>
+<br />
+<p>**Readme info for Mission 3 is at the end of this file</p>
+<br />
 
 <h3>ABOUT THE PROJECT:</h3>
 
