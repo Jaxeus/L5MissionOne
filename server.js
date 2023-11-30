@@ -3,7 +3,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const findCarValue = require("./api"); // Importing the findCarValue function from api.js for testing
+const findCarValue = require("./public/api"); // Importing the findCarValue function from api.js for testing
 
 //----------MIDDLEWARE----------//
 app.use(express.json()); //allows us to see data in json format in the body of the request
@@ -92,18 +92,18 @@ app.post("/carValue", (req, res) => {
 // !! When using Postman, remember to change the body to raw and JSON format, rather than text. Hours spent on Text wondering why it wasn't working. Also remember to give the keys quotation marks. !!
 
 //----------Deployed @ http://mission-one-three.azurewebsites.net/ - findCarValue function in API.js being utilised
-app.post(
-  "http://mission-one-three.azurewebsites.net/carValueQuote",
-  (req, res) => {
-    const model = req.body.model;
-    const year = req.body.year;
-    const carValue = findCarValue(model, year);
-    // const carValue = findCarValue(model, year);
-    console.log("Console for req.body", req.body);
-    console.log(`Console logging the car's value: $${carValue}`);
-    res.json({ carValue }); //{"carValue": 8708} where body = {"model": "Atenza", "year": 2008}
-  }
-);
+// app.post(
+//   "http://mission-one-three.azurewebsites.net/carValueQuote",
+//   (req, res) => {
+//     const model = req.body.model;
+//     const year = req.body.year;
+//     const carValue = findCarValue(model, year);
+//     // const carValue = findCarValue(model, year);
+//     console.log("Console for req.body", req.body);
+//     console.log(`Console logging the car's value: $${carValue}`);
+//     res.json({ carValue }); //{"carValue": 8708} where body = {"model": "Atenza", "year": 2008}
+//   }
+// );
 
 //----------PORT----------//
 const PORT = 4001;
