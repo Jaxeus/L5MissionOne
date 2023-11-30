@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="server.js"></script>
     <script defer src="api.js"></script>
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Jason's Web App</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:wght@300;400&family=Lato&family=Nunito:wght@700;900&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jason's M3 Web App</title>
   </head>
   <body>
-    <h1>YAY! It is working, somewhat, at least.</h1>
+    <h1>Turners Cars Car Valuer API</h1>
+    <div class="api-container">
+      <h3>
+        This website contains an API that will allow you to find the value of
+        your car through a post request.
+      </h3>
+      <p>
+        The API is accessible by using the endpoint /carValueQuote<br /><br />To
+        find the value of your car, make a post request with the body as such:
+      </p>
+      <p class="json">
+        {<br />"model": "&lt;model_name&gt;"<br />"year": &lt;year&gt;<br />}<br />
+      </p>
+      <p>
+        The API will return the value of your car in the following format:<br />
+      </p>
+      <p class="json">{<br />"carValue": &lt;value&gt;<br />}</p>
+    </div>
   </body>
 </html>
