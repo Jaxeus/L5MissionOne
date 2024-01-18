@@ -11,7 +11,7 @@ Mission One (and Three) for Level 5 Advanced Software Developer</div>
 
 -->But, as per all Missions at Mission Ready HQ, I learned a lot as well.
 
--->This is the first Mission where I haven't completed all of the tasks provided, but I will be meeting the Trainer (Andrew) one-one within the next few days for help to complete all tasks (remaining tasks are completing functional and passing tests, and editing the API to look more professional)
+<!--- --><!--- This is the first Mission where I haven't completed all of the tasks provided, but I will be meeting the Trainer (Andrew) one-one within the next few days for help to complete all tasks (remaining tasks are completing functional and passing tests, and editing the API to look more professional) --->
 
 ---
 
