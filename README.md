@@ -3,7 +3,6 @@
 Mission One (and Three) for Level 5 Advanced Software Developer</div>
 <br />
 <p>**Readme info for Mission 3 is at the end of this file</p>
-<br />
 
 <h3>ABOUT THE PROJECT:</h3>
 
